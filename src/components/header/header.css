@@ -1,0 +1,33 @@
+.content{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 44px;
+    padding-bottom: 80px;
+}
+
+.networks{
+    display: flex;
+    gap: 30px;
+}
+.networks img{
+    cursor: pointer;
+}
+.networks img:hover{
+    filter: invert(0%) sepia(23%) saturate(3941%) hue-rotate(72deg) brightness(94%) contrast(100%);
+}
+
+
+@media screen and (max-width: 790px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
